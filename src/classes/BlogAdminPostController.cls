@@ -11,6 +11,7 @@ public class BlogAdminPostController {
     }
     
     public List<Post__c> getPost(){
+        System.debug('test commit in git');
         return posts;
     } 
     
